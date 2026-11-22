@@ -57,3 +57,10 @@ location7 = "west us"
 
 resource_group8 = "rg-dev-ci-008"
 location8 = "west us"
+
+environment1 = "DEV"
+
+project     = "azure"
+environment2 = "dev"
+location3    = "Central India"
+number      = 111

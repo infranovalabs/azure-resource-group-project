@@ -20,3 +20,11 @@ module "rg1" {
 
 
 
+module "rg2" {
+  source = "../module/02_azurerm_logic_resource_group"
+  environment1 = var.environment1
+  location3 = var.location3
+  project = var.project
+  number = var.number
+  environment2 = var.environment2
+}
